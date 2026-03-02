@@ -12,3 +12,4 @@ phone carrier , places  adventuress tips
 - Conseils de sécurité pour les lieux / Sécurité HTTP
 
 - Conseils de sécurité pour le Bluetooth, le Wi-Fi, la 4G et autres réseaux
+![fake text](./pic1.png)
