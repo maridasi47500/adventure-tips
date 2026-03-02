@@ -1,0 +1,102 @@
+<h1># adventure-tips</h1>
+<style>
+form {
+float:left;
+width:100%;
+clear:both;
+}
+#container {
+	position: relative;
+	width: 50px;
+	float: left;
+	height: 50px;
+}
+#num1,
+#num2 {
+  position: absolute;
+  left: 0px;
+}
+#num1 {
+	padding-left: 2px;
+}
+.hey{
+    font-size: 1em;
+    width: 200px;
+    word-spacing: 200px;        
+}
+</style>
+
+<table>
+<tr>
+<td>
+<div id='wifi'>
+&#128732;
+wifi
+</div>
+</td>
+<td>
+<div id='container'>
+  <div id='num1'>&#5842;</div>
+  <div id='num2'>&#x16BC;</div>
+
+</div>
+<div>bluetooth</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<div id='reseau4G'>
+    &#128246;
+4g
+</div>
+</td>
+<td>
+<div id="modeavion">    &#9992;&#65039; (mode avion)</div>
+</td>
+</tr>
+</table>
+<form>
+<div>
+<label>what your phone carrier?
+</label>
+<input name="phonecarrier"/>
+</div>
+<div>
+<label>quel est le lieu de tes aventures?
+</label>
+<input name="phonecarrier"/>
+</div>
+</form>
+<h2>ajoute les lieux de tes aventures</h2>
+<form>
+<div>
+<label>ou pars tu?
+</label>
+<input name="lieu"/>
+</div>
+<div>
+<input type="hidden" name="lat"/>
+<input type="hidden" name="lon"/>
+</div>
+</form>
+<h2>entre une astuce </h2>
+<form>
+<div>
+<label>type du conseil de securite
+</label>
+<select>
+<option value="lieu">pour le lieu</option>
+<option value="http">conseil 'HTTP'</option>
+<option value="4g">4G</option>
+<option value="wifi">wifi</option>
+<option value="bt">bluetooth</option>
+<option value="avion">mode avion</option>
+</select>
+</div>
+<div>
+<label>astuce
+</label>
+<textarea name="lieu"></textarea>
+</div>
+</form>
